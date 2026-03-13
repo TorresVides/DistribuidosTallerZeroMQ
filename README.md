@@ -1,5 +1,6 @@
 # DistribuidosTallerZeroMQ
 
-echo "Hola" | nc localhost 5555   //Conexión
+gcc programa.c -o programa
+./programa   echo "Hola" | nc localhost 5555   //Conexión
 
-pip install pyzmq   //instalar para usar zmq
+
